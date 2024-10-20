@@ -12,11 +12,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class vrltest33 {
     public static void main(String[] args) throws Exception {
-
+// jfjdlkfjkjfk
         ChromeDriver driver = new ChromeDriver();
         driver.get("http://localhost:61345/");
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
 
         WebElement email = driver.findElement(By.xpath("//div[@class='form-group']//child::input"));
         email.sendKeys("admin1@a.com");
