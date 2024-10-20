@@ -15,7 +15,6 @@ public class vrltest33 {
 
         ChromeDriver driver = new ChromeDriver();
         driver.get("http://localhost:61345/");
-        Thread.sleep(1000); 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 
